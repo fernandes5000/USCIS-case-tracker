@@ -1,0 +1,103 @@
+{
+  "@@locale": "es",
+
+  "appTitle": "Rastreador de Casos USCIS",
+
+  "welcomeBack": "Bienvenido de nuevo",
+  "signInSubtitle": "Inicia sesión para rastrear tus casos en USCIS",
+  "email": "Correo electrónico",
+  "password": "Contraseña",
+  "signIn": "Iniciar sesión",
+  "noAccount": "¿No tienes una cuenta?",
+  "signUp": "Registrarse",
+  "emailRequired": "El correo electrónico es obligatorio",
+  "emailInvalid": "Ingresa un correo electrónico válido",
+  "passwordRequired": "La contraseña es obligatoria",
+
+  "createAccount": "Crear cuenta",
+  "createAccountSubtitle": "Comienza a rastrear tus casos en USCIS",
+  "fullName": "Nombre completo",
+  "confirmPassword": "Confirmar contraseña",
+  "passwordMinLength": "Mínimo 8 caracteres",
+  "passwordsDoNotMatch": "Las contraseñas no coinciden",
+  "fullNameRequired": "El nombre completo es obligatorio",
+  "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+
+  "myCases": "Mis Casos",
+  "hello": "Hola, {name}",
+  "@hello": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "noCasesYet": "Sin casos aún",
+  "noCasesSubtitle": "Agrega tus números de recibo de USCIS\npara comenzar a rastrear tus casos.",
+  "addFirstCase": "Agregar Primer Caso",
+  "addCase": "Agregar Caso",
+
+  "receiptNumber": "Número de Recibo",
+  "receiptHint": "ej: EAC9999103403",
+  "receiptHelper": "Se encuentra en tu Aviso de Acción del USCIS (I-797)",
+  "nicknameOptional": "Apodo (opcional)",
+  "nicknameHint": "ej: Mi Green Card, Visa de Cónyuge",
+  "trackThisCase": "Rastrear Este Caso",
+  "caseAddedSuccess": "Caso agregado exitosamente",
+  "receiptRequired": "El número de recibo es obligatorio",
+  "receiptTooShort": "Número de recibo muy corto",
+  "receiptInvalidPrefix": "Debe comenzar con 3 letras (ej: IOE, EAC, WAC)",
+  "receiptInvalidSuffix": "Los dígitos deben seguir el prefijo de 3 letras",
+  "receiptInfoBanner": "Tu número de recibo está en el Aviso de Acción del USCIS (Formulario I-797). Comienza con 3 letras seguidas de 10 dígitos.",
+
+  "currentStatus": "Estado Actual",
+  "caseHistory": "Historial del Caso",
+  "caseHistoryCount": "{count} eventos",
+  "@caseHistoryCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statusUnavailable": "Estado no disponible",
+  "statusUnavailableSubtitle": "No se pudo obtener el estado del USCIS. Intenta actualizar.",
+  "editNickname": "Editar Apodo",
+  "removeCase": "Eliminar Caso",
+  "removeCaseConfirm": "¿Eliminar {receipt} de tus casos rastreados? Esta acción no se puede deshacer.",
+  "@removeCaseConfirm": {
+    "placeholders": {
+      "receipt": { "type": "String" }
+    }
+  },
+  "cancel": "Cancelar",
+  "save": "Guardar",
+  "remove": "Eliminar",
+  "refresh": "Actualizar",
+  "nickname": "Apodo",
+  "nicknamePlaceholder": "ej: Mi Green Card",
+  "failedToUpdate": "Error al actualizar",
+  "failedToRemove": "Error al eliminar",
+  "failedToAdd": "Error al agregar el caso. Intenta de nuevo.",
+  "alreadyTracked": "Este caso ya está en tu lista.",
+  "invalidReceiptFormat": "Formato de número de recibo inválido.",
+  "caseNotFound": "Caso no encontrado en el sistema USCIS.",
+
+  "profile": "Perfil",
+  "about": "Acerca de",
+  "version": "Versión",
+  "privacyPolicy": "Política de Privacidad",
+  "signOut": "Cerrar sesión",
+  "signOutConfirm": "¿Estás seguro de que deseas cerrar sesión?",
+  "language": "Idioma",
+
+  "tryAgain": "Intentar de nuevo",
+  "errorOccurred": "Ocurrió un error. Intenta de nuevo.",
+  "connectionError": "No se pudo conectar al servidor. Verifica tu conexión.",
+  "sessionExpired": "Sesión expirada. Inicia sesión de nuevo.",
+
+  "languageEnglish": "English",
+  "languagePortuguese": "Português",
+  "languageSpanish": "Español",
+
+  "appearance": "Apariencia",
+  "themeSystem": "Predeterminado del sistema",
+  "themeLight": "Claro",
+  "themeDark": "Oscuro"
+}

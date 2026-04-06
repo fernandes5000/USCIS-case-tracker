@@ -1,0 +1,103 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "USCIS Case Tracker",
+
+  "welcomeBack": "Welcome back",
+  "signInSubtitle": "Sign in to track your USCIS cases",
+  "email": "Email",
+  "password": "Password",
+  "signIn": "Sign In",
+  "noAccount": "Don't have an account?",
+  "signUp": "Sign Up",
+  "emailRequired": "Email is required",
+  "emailInvalid": "Enter a valid email",
+  "passwordRequired": "Password is required",
+
+  "createAccount": "Create account",
+  "createAccountSubtitle": "Start tracking your USCIS cases",
+  "fullName": "Full Name",
+  "confirmPassword": "Confirm Password",
+  "passwordMinLength": "Minimum 8 characters",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "fullNameRequired": "Full name is required",
+  "alreadyHaveAccount": "Already have an account?",
+
+  "myCases": "My Cases",
+  "hello": "Hello, {name}",
+  "@hello": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "noCasesYet": "No cases yet",
+  "noCasesSubtitle": "Add your USCIS receipt numbers\nto start tracking your cases.",
+  "addFirstCase": "Add First Case",
+  "addCase": "Add Case",
+
+  "receiptNumber": "Receipt Number",
+  "receiptHint": "e.g. EAC9999103403",
+  "receiptHelper": "Found on your USCIS Notice of Action (I-797)",
+  "nicknameOptional": "Nickname (optional)",
+  "nicknameHint": "e.g. My Green Card, Spouse Visa",
+  "trackThisCase": "Track This Case",
+  "caseAddedSuccess": "Case added successfully",
+  "receiptRequired": "Receipt number is required",
+  "receiptTooShort": "Receipt number too short",
+  "receiptInvalidPrefix": "Must start with 3 letters (e.g. IOE, EAC, WAC)",
+  "receiptInvalidSuffix": "Digits must follow the 3-letter prefix",
+  "receiptInfoBanner": "Your receipt number is on your USCIS Notice of Action (Form I-797). It starts with 3 letters followed by 10 digits.",
+
+  "currentStatus": "Current Status",
+  "caseHistory": "Case History",
+  "caseHistoryCount": "{count} events",
+  "@caseHistoryCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "statusUnavailable": "Status unavailable",
+  "statusUnavailableSubtitle": "Could not retrieve status from USCIS. Try refreshing.",
+  "editNickname": "Edit Nickname",
+  "removeCase": "Remove Case",
+  "removeCaseConfirm": "Remove {receipt} from your tracked cases? This cannot be undone.",
+  "@removeCaseConfirm": {
+    "placeholders": {
+      "receipt": { "type": "String" }
+    }
+  },
+  "cancel": "Cancel",
+  "save": "Save",
+  "remove": "Remove",
+  "refresh": "Refresh",
+  "nickname": "Nickname",
+  "nicknamePlaceholder": "e.g. My Green Card",
+  "failedToUpdate": "Failed to update",
+  "failedToRemove": "Failed to remove",
+  "failedToAdd": "Failed to add case. Please try again.",
+  "alreadyTracked": "This case is already in your list.",
+  "invalidReceiptFormat": "Invalid receipt number format.",
+  "caseNotFound": "Case not found in USCIS system.",
+
+  "profile": "Profile",
+  "about": "About",
+  "version": "Version",
+  "privacyPolicy": "Privacy Policy",
+  "signOut": "Sign Out",
+  "signOutConfirm": "Are you sure you want to sign out?",
+  "language": "Language",
+
+  "tryAgain": "Try Again",
+  "errorOccurred": "An error occurred. Please try again.",
+  "connectionError": "Could not connect to server. Check your connection.",
+  "sessionExpired": "Session expired. Please sign in again.",
+
+  "languageEnglish": "English",
+  "languagePortuguese": "Português",
+  "languageSpanish": "Español",
+
+  "appearance": "Appearance",
+  "themeSystem": "System default",
+  "themeLight": "Light",
+  "themeDark": "Dark"
+}
